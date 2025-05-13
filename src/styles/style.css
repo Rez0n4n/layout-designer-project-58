@@ -34,6 +34,7 @@ h1,h2,h3 {
   line-height: 1.2em;
 }
 h1 {
+  display: block;
   font-size: 72px;
 }
 
@@ -50,4 +51,27 @@ section {
   align-items: center;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+header ::before {
+  display: flex;
+  background-image: url(/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%; 
+}
+
+header {
+  background-color: var(--color-light);
+}
+
+.headerContent {
+  display: flex;
+}
+
+.mainimg {
+  display: block;
+  height: 525px;
+  margin-top: 55px;
+  margin-right: -270px;
 }
