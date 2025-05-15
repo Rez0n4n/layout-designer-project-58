@@ -22,7 +22,6 @@
   --color-blue: #1085c5;
 }
 
-
 body {
   display: flex;
   flex-direction: column;
@@ -34,6 +33,10 @@ body {
 }
 
 h1, h2, h3 {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
   font-family: Neucha, sans-serif;
   font-weight: 400;
   line-height: 1.2em;
@@ -41,7 +44,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  display: block;
+  width: 100%;
   font-size: 72px;
 }
 
@@ -66,12 +69,24 @@ section {
   width: 1110px;
 }
 
+p {
+  display: block;
+  width: 540px;
+}
+
 .bg-color-light {
 background-color: var(--color-light);
 }
 
 .bg-image {
+  margin: 0;
+  padding: 0;
   position: relative;
+}
+
+.sc-pdng {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .bg-image::before {
@@ -91,16 +106,13 @@ background-color: var(--color-light);
 
 .mainimg {
   height: 525px;
-  position: relative;
-  width: 100%;
+  position: absolute;
   top: 55px;
-  right: 270px;
-  z-index: 200;
+  left: 461px;
 }
 
 .contentColumn {
-  display: block;
-  column-count: 2;
+  display: flex;
   column-gap: 30px;
 }
 
