@@ -44,8 +44,13 @@ h1, h2, h3 {
 }
 
 h1 {
+  color: var(--color-primary);
   width: 100%;
   font-size: 72px;
+}
+
+h1>span {
+color: var(--color-dark);
 }
 
 h2 {
@@ -85,6 +90,7 @@ background-color: var(--color-light);
 }
 
 .sc-pdng {
+  position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -108,7 +114,7 @@ background-color: var(--color-light);
   height: 525px;
   position: absolute;
   top: 55px;
-  left: 461px;
+  right: -270px;
 }
 
 .contentColumn {
@@ -116,3 +122,12 @@ background-color: var(--color-light);
   column-gap: 30px;
 }
 
+button {
+  border: 0;
+  position: relative;
+  margin-top: 40px;
+  padding: 12px 24px;
+  font-weight: bold;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
