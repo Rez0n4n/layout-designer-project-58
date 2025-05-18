@@ -35,6 +35,8 @@ body {
 h1, h2, h3 {
   display: block;
   position: relative;
+  color: var(--color-dark);
+  width: 100%;
   margin: 0;
   padding: 0;
   font-family: Neucha, sans-serif;
@@ -44,16 +46,17 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: var(--color-primary);
-  width: 100%;
   font-size: 72px;
 }
 
-h1>span {
-color: var(--color-dark);
+h1 > span,
+h2 > span,
+h3 > span {
+color: var(--color-primary);
 }
 
 h2 {
+  text-align: center;
   font-size: 60px;
 }
 
@@ -70,8 +73,6 @@ header, main, footer {
 }
 
 section {
-  display: flex;
-  width: 1110px;
 }
 
 p {
@@ -80,7 +81,25 @@ p {
 }
 
 .bg-color-light {
+display: flex;
 background-color: var(--color-light);
+width: 100%;
+}
+
+.bg-color-white {
+  display: flex;
+  background-color: var(--color-white);
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bg-color-primdark {
+  display: flex;
+  width: 100%;
+  background-color: var(--color-primary-dark);
+  flex-direction: row;
+  justify-content: center;
 }
 
 .bg-image {
@@ -91,6 +110,7 @@ background-color: var(--color-light);
 
 .sc-pdng {
   position: relative;
+  width: 1110px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -130,4 +150,25 @@ button {
   font-weight: bold;
   color: var(--color-white);
   background-color: var(--color-primary);
+}
+
+.preview-image {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin-bottom: -200px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.preview-image>a>img {
+  position: relative;
+  width: 919px; 
+  height: 517px;
+}
+
+.preview-image-p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
