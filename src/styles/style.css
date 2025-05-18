@@ -172,3 +172,32 @@ button {
   text-align: center;
   margin-top: 30px;
 }
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 100px;
+}
+
+.navigation>a {
+  padding: 24px;
+  background-color: var(--color-white);
+}
+
+.nav-h2 {
+  font-size: 52px;
+}
+
+.nav-p {
+    width: auto;
+}
+
+
+.nav-num {
+  width: auto;
+  padding: 40px;
+  font-size: 64px;
+  font-family: Neucha, sans-serif;
+  line-height: 1;
+}
