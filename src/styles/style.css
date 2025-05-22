@@ -65,19 +65,18 @@ h3 {
 }
 
 header, main, footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
   position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-items: center;
-}
-
-section {
-}
-
-p {
-  display: block;
-  width: 540px;
+  width: 1110px;
 }
 
 .bg-color-light {
@@ -110,7 +109,6 @@ width: 100%;
 
 .sc-pdng {
   position: relative;
-  width: 1110px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -137,9 +135,18 @@ width: 100%;
   right: -270px;
 }
 
+header .contentColumn {
+  margin-top: 185px;
+}
+
 .contentColumn {
   display: flex;
   column-gap: 30px;
+}
+
+.contentColumn p {
+  box-sizing: border-box;
+  width: 50%;
 }
 
 button {
@@ -158,6 +165,7 @@ button {
   display: block;
   margin-bottom: -200px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  z-index: 200;
 }
 
 .preview-image>a>img {
