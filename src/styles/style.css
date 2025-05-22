@@ -233,11 +233,11 @@ button {
   height: 100%;
 }
 
-a:hover {
+.navigation a:hover {
   background-color: var(--color-primary);
   color: var(--color-white);
 }
 
-a:hover h3 {
+.navigation a:hover h3 {
   color: var(--color-white);
 }
