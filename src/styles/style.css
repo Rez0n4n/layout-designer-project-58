@@ -72,7 +72,6 @@ color: var(--color-primary);
 }
 
 h2 {
-  text-align: center;
   font-size: 60px;
 }
 
@@ -173,6 +172,10 @@ button {
   font-weight: bold;
   color: var(--color-white);
   background-color: var(--color-primary);
+}
+
+.cntr-h {
+  text-align: center;
 }
 
 .preview-image {
