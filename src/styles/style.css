@@ -151,32 +151,35 @@ width: 100%;
 .content-column {
   display: flex;
   column-gap: 30px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-padding-p {
+/*padding-p {
   position: relative;
   top: -12px;
-}
+}*/
 
-header .content-column {
+.content-column-header {
   margin-top: 199px;
 }
 
 
-.content-column p {
+.content-column-p {
   margin: 0;
   box-sizing: border-box;
   width: 50%;
-}
-.btn-head {
-
 }
 
 button {
     border: 0;
     position: relative;
-    margin-top: 28px;
-    padding: 15px 23px;
+    margin-top: 40px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 23px;
+    line-height: 160%;
     font-weight: 700;
     font-size: 16px;
     color: var(--color-white);
