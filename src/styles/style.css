@@ -156,11 +156,6 @@ width: 100%;
   box-sizing: border-box;
 }
 
-/*padding-p {
-  position: relative;
-  top: -12px;
-}*/
-
 .content-column-header {
   margin-top: 181px;
 }
@@ -175,7 +170,7 @@ width: 100%;
 button {
     border: 0;
     position: relative;
-    margin-top: 40px;
+    margin-top: 24px;
     padding: 12px 24px;
     line-height: 160%;
     font-weight: 700;
