@@ -153,8 +153,13 @@ width: 100%;
   column-gap: 30px;
 }
 
+padding-p {
+  position: relative;
+  top: -12px;
+}
+
 header .content-column {
-  margin-top: 185px;
+  margin-top: 199px;
 }
 
 
@@ -163,15 +168,19 @@ header .content-column {
   box-sizing: border-box;
   width: 50%;
 }
+.btn-head {
+
+}
 
 button {
-  border: 0;
-  position: relative;
-  margin-top: 40px;
-  padding: 12px 24px;
-  font-weight: bold;
-  color: var(--color-white);
-  background-color: var(--color-primary);
+    border: 0;
+    position: relative;
+    margin-top: 28px;
+    padding: 15px 23px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--color-white);
+    background-color: var(--color-primary);
 }
 
 button:hover {
@@ -355,7 +364,7 @@ filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 .ftr-h {
 margin: 0;
 color: var(--color-white);
-font-family: Neucha;
+font-family: Neucha, sans-serif;
 font-weight: 400;
 font-size: 34px;
 line-height: 120%;
