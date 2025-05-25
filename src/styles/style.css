@@ -157,7 +157,7 @@ width: 100%;
 }
 
 .content-column-header {
-  margin-top: 184px;
+  margin-top: 185px;
 }
 
 
@@ -184,7 +184,7 @@ background-color: #EA7600;
 }
 
 .cntr-h {
-  margin-top: 1px;
+  margin-top: 0;
   text-align: center;
   line-height: 72px;
 }
