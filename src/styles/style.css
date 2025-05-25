@@ -198,6 +198,9 @@ background-color: #EA7600;
   z-index: 200;
 }
 
+a img {
+  vertical-align: top;
+}
 .preview-image img {
   position: relative;
   width: 919px; 
