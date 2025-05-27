@@ -208,6 +208,11 @@ background-color: #EA7600;
   margin-bottom: -200px;
 }
 
+.preview-img {
+  display: flex;
+  justify-content: center;
+}
+
 a img {
   vertical-align: top;
 }
