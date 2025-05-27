@@ -48,8 +48,8 @@ body {
   color: inherit;
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3 {
   display: block;
   position: relative;
@@ -81,8 +81,8 @@ h3 {
   font-size: 34px;
 }
 
-header, 
-main, 
+header,
+main,
 footer {
   display: flex;
   overflow: hidden;
@@ -107,7 +107,7 @@ footer {
 
 .bg-color-brown {
   width: 100%;
-  background-color: var(--color-brown)
+  background-color: var(--color-brown);
 }
 
 .bg-image {
@@ -194,7 +194,7 @@ button {
 }
 
 button:hover {
-background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 .cntr-h {
@@ -222,7 +222,7 @@ a img {
 
 .preview-image img {
   position: relative;
-  width: 919px; 
+  width: 919px;
   height: 517px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   z-index: 200;
@@ -310,7 +310,7 @@ a img {
 }
 
 .col-img-cont img {
-filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .col-img-cont h2 {
@@ -417,13 +417,13 @@ filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .ftr-h {
-margin: 0;
-color: var(--color-white);
-font-family: Neucha, sans-serif;
-font-weight: 400;
-font-size: 34px;
-line-height: 120%;
-letter-spacing: 0%;
+  margin: 0;
+  color: var(--color-white);
+  font-family: Neucha, sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 120%;
+  letter-spacing: 0%;
 }
 
 .ftr input {
@@ -444,7 +444,6 @@ letter-spacing: 0%;
   width: 70px;
 }
 
-
 .ftr-input-email {
   margin: 0;
   color: var(--color-white);
@@ -464,15 +463,15 @@ letter-spacing: 0%;
 }
 
 .ftr-column-1 {
- display: flex;
- padding: 55px;
+  display: flex;
+  padding: 55px;
 }
 
 .ftr-column-2 {
- display: flex;
- flex-direction: column;
- padding-left: 55px;
- padding-right: 55px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 
 .ftr a {
