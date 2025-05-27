@@ -1,13 +1,13 @@
 /** CSS STYLE **/
 @font-face {
   font-weight: 400;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 
 @font-face {
   font-weight: 700;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 
@@ -36,10 +36,10 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.6em;
   font-size: 16px;
-  color: #2A2626;
+  color: var(--color-dark);
   margin: 0;
 }
 
@@ -48,7 +48,9 @@ body {
   color: inherit;
 }
 
-h1, h2, h3 {
+h1, 
+h2, 
+h3 {
   display: block;
   position: relative;
   color: var(--color-dark);
@@ -62,13 +64,13 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 72px;
+  font-size: 72px;
 }
 
 h1 > span,
 h2 > span,
 h3 > span {
-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 h2 {
@@ -79,7 +81,9 @@ h3 {
   font-size: 34px;
 }
 
-header, main, footer {
+header, 
+main, 
+footer {
   display: flex;
   overflow: hidden;
   align-items: center;
@@ -87,14 +91,13 @@ header, main, footer {
 }
 
 .bg-color-light {
-background-color: var(--color-light);
-width: 100%;
+  background-color: var(--color-light);
+  width: 100%;
 }
 
 .bg-color-white {
   background-color: var(--color-white);
   width: 100%;
-
 }
 
 .bg-color-primdark {
@@ -182,7 +185,7 @@ button {
   position: relative;
   margin-top: 24px;
   padding: 12px 24px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 160%;
   font-weight: 700;
   font-size: 16px;
@@ -340,7 +343,7 @@ filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   padding-left: 10px;
   color: var(--color-white);
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
 }
@@ -400,7 +403,7 @@ filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   padding-left: 10px;
   color: var(--color-brown);
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
 }
