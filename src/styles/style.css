@@ -226,7 +226,7 @@ a img {
 }
 
 .nav-h2 {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   color: var(--color-white);
   font-weight: 400;
   font-size: 52px;
@@ -246,6 +246,7 @@ a img {
 }
 
 .nav-num {
+  margin-bottom: 5px;
   width: 100%;
   padding-bottom: 35px;
   font-size: 64px;
