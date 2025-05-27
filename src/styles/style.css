@@ -201,6 +201,7 @@ background-color: #EA7600;
 a img {
   vertical-align: top;
 }
+
 .preview-image img {
   position: relative;
   width: 919px; 
@@ -225,6 +226,7 @@ a img {
 }
 
 .nav-h2 {
+  margin-bottom: 5px;
   color: var(--color-white);
   font-weight: 400;
   font-size: 52px;
@@ -244,6 +246,7 @@ a img {
 }
 
 .nav-num {
+  margin-top: 5px;
   width: 100%;
   padding-bottom: 35px;
   font-size: 64px;
