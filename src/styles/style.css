@@ -167,6 +167,16 @@ width: 100%;
   width: 50%;
 }
 
+.content-column-p-2 {
+  margin: 0;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.content-column-p-2 p {
+  margin: 0;
+}
+
 button {
   border: 0;
   position: relative;
@@ -226,7 +236,7 @@ a img {
 }
 
 .nav-h2 {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   color: var(--color-white);
   font-weight: 400;
   font-size: 52px;
